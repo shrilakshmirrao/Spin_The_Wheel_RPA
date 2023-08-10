@@ -1,0 +1,9 @@
+<GetText
+    DisplayName="Get Result Text"
+    ContinueOnError="True"
+    Target="Selector"
+    TargetSelector="[Selector for the result text element]">
+    <GetText.Result>
+        <OutArgument x:TypeArguments="String">ResultText</OutArgument>
+    </GetText.Result>
+</GetText>

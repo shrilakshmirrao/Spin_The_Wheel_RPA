@@ -1,0 +1,8 @@
+<OpenBrowser
+    BrowserType="IE"
+    DisplayName="Open Browser"
+    Url="[URL of the spin the wheel game]">
+    <OpenBrowser.Output>
+        <UiPath.Core.BrowserBrowserInstance Variable="Browser" />
+    </OpenBrowser.Output>
+</OpenBrowser>

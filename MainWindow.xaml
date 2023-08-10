@@ -1,0 +1,11 @@
+<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Spin the Wheel" Height="250" Width="300">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button x:Name="SpinButton" Content="Spin" Width="100" Height="50" Click="SpinButton_Click"/>
+            <TextBlock x:Name="ResultText" Text="" FontSize="20" Margin="10" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

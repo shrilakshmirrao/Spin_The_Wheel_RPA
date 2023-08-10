@@ -1,0 +1,9 @@
+<Click
+    DisplayName="Click Spin Button"
+    ContinueOnError="True"
+    WaitForReady="COMPLETE"
+    Target="Selector"
+    TargetSelector="[Selector for the spin button]">
+    <Click.OffsetX>0</Click.OffsetX>
+    <Click.OffsetY>0</Click.OffsetY>
+</Click>

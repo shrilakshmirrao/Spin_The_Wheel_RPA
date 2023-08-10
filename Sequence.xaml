@@ -1,0 +1,16 @@
+<Sequence DisplayName="Spin the Wheel">
+    <!-- Open Browser activity -->
+    <OpenBrowser ... />
+
+    <!-- Click Spin Button activity -->
+    <Click ... />
+
+    <!-- Delay activity to allow time for the wheel to stop spinning -->
+    <Delay Duration="PT5S" />
+
+    <!-- Get Result Text activity -->
+    <GetText ... />
+
+    <!-- Display the result -->
+    <Message Box Message="[ResultText]" />
+</Sequence>
